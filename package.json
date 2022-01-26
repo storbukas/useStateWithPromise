@@ -1,0 +1,39 @@
+{
+  "name": "use-state-with-promise",
+  "version": "1.0.0",
+  "description": "Custom React useState hook with Promise support",
+  "author": "Lars Erik Storbukås",
+  "homepage": "https://github.com/storbukas/useStateWithPromise#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/storbukas/useStateWithPromise.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "keywords": [
+    "React",
+    "hook",
+    "useState",
+    "Promise",
+    "useStateWithPromise"
+  ],
+  "bugs": {
+    "url": "https://github.com/storbukas/useStateWithPromise/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  },
+  "devDependencies": {
+    "typescript": "^2.7.2",
+    "@types/react": "^16.14.0",
+    "@types/react-dom": "^16.9.0"
+  }
+}
